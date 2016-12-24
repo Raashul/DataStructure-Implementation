@@ -25,5 +25,12 @@ public class LinkedListImplementation {
 		System.out.println(" Searching element 15, location : " + ll.search(15));
 		
 		
+		if(ll.hasCycle(ll.head) == true){
+			System.out.print("cycle");
+		}else{
+			System.out.println("not a cycle");
+		}
+		
+		
 	}
 }
